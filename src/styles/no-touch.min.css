@@ -110,19 +110,22 @@ button:focus {
   background-color: #000;
 }
 .about-text {
-  width: 80%;
+  width: 100%;
   padding: 2%;
+  text-align: center;
 }
 .red-line {
   color: var(--primary-color);
   font-weight: 500;
 }
 .About-title-box {
+  text-align: center;
   box-sizing: border-box;
   width: 50%;
   padding-bottom: 5px;
   border-bottom: solid 2px var(--primary-color);
   margin-bottom: 15px;
+  margin-left: 25%;
 }
 .skill__square {
   display: inline;
@@ -224,7 +227,7 @@ button:focus {
 }
 .git-form {
   width: 1160px;
-  box-sizing: border-box;
+  box-sizing:content-box;
   display: block;
   margin: 3rem 3rem 0 3rem;
   background-color: #fff;

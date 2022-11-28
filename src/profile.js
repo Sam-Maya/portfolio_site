@@ -9,7 +9,7 @@ const animation = {
 };
 // Change your display name on tha landing display
 const header = {
-  name: "a Human",
+  name: "Samuel Maya",
 };
 const background = {
   // Options: Snow or Particle
@@ -20,7 +20,7 @@ const background = {
 const section2title = "About Me";
 const about = {
   paragraph:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. ",
+    "I am a software developer with a passion for problem solving and a desire to constantly be improving on my skills.",
 };
 // Edit your skill and the percentage you know about it
 // To Add a skill, copy any one below and paste it after the last comma
@@ -42,9 +42,9 @@ const skillsBar = [
     faClass: "fab fa-js",
   },
   {
-    name: "SASS",
+    name: "React",
     // svg: '',
-    faClass: "fab fa-sass",
+    faClass: "fab fa-react",
   },
   {
     name: "Node",
@@ -52,30 +52,35 @@ const skillsBar = [
     faClass: "fab fa-node",
   },
   {
+    name: "TypeScript",
+    // svg: '',
+    faClass: "fas fa-keyboard",
+  },
+  {
     name: "Python",
     // svg: '',
     faClass: "fab fa-python",
   },
   {
-    name: "Java",
+    name: "Bootstrap",
     // svg: '',
-    faClass: "fab fa-java",
+    faClass: "fab fa-bootstrap",
   },
   {
-    name: "PHP",
-    // svg: '',
-    faClass: "fab fa-php",
-  },
-  {
-    name: "Database",
+    name: "MongoDB",
     // svg: '',
     faClass: "fas fa-database",
   },
   {
-    name: "AWS",
+    name: "Firebase",
     // svg: '',
-    faClass: "fab fa-aws",
+    faClass: "fas fa-fire",
   },
+  {
+    name: "WordPress",
+    // svg: '',
+    faClass: "fab fa-wordpress",
+  }
 ];
 // Edit your projects, its name, your skills used to make it, and the url.
 // You can omit freely anything if you dont have it
@@ -85,45 +90,45 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "Project 1",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "React Task App",
+    skills: ["React, JavaScript"],
+    url: "https://github.com/Sam-Maya/ReactTaskApp",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Project 2",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "MERN App",
+    skills: ["MongoDB, Express, React, Node.js"],
+    url: "https://github.com/Sam-Maya/MERN_APP",
   },
   {
     // Add image in './styles/images.css' in #project3
     id: "project3",
-    name: "Project 3",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "Tennis String API",
+    skills: ["Express, Node.js"],
+    url: "https://github.com/Sam-Maya/TennisStringScaper",
   },
   {
     // Add image in './styles/images.css' in #project4
     id: "project4",
-    name: "Project 4",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
+    name: "The Studio Worldwide",
+    skills: ["HTML, CSS, JavaScript, PHP"],
+    url: "https://www.thestudioworldwide.com/",
   },
   {
     // Add image in './styles/images.css' in #project5
     id: "project5",
-    name: "Project 5",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
-  {
-    // Add image in './styles/images.css' in #project6
-    id: "project6",
-    name: "Project 6",
-    skills: ["HTML, CSS, JS"],
-    url: "https://github.com/kaustubhai",
-  },
+    name: "Portfolio Site",
+    skills: ["React, JavaScript"],
+    url: "https://samuelthedev.com/",
+  }
+  // {
+  //   // Add image in './styles/images.css' in #project6
+  //   id: "project6",
+  //   name: "Project 6",
+  //   skills: ["HTML, CSS, JS"],
+  //   url: "",
+  // },
 ];
 // Edit your Miscellaneous Activities, its name and the url.
 // You can omit freely anything if you dont have it
@@ -134,40 +139,36 @@ const miscellaneous = [
     // Add image in './styles/images.css' in #misc1
     id: "misc1",
     name: "Miscellaneous 1",
-    url: "https://github.com/kaustubhai",
+    url: "https://github.com/sam-maya",
   },
   {
     // Add image in './styles/images.css' in #misc2
     id: "misc2",
     name: "Miscellaneous 2",
-    url: "https://github.com/kaustubhai",
+    url: "https://github.com/sam-maya",
   },
   {
     // Add image in './styles/images.css' in #misc3
     id: "misc3",
     name: "Miscellaneous 3",
-    url: "https://github.com/kaustubhai",
+    url: "https://github.com/sam-maya",
   },
 ];
-// Contact form text, and Formspree link(to send a submit contact through their API as in contact.js)
-// To get your own jotform link, go to https://formspree.io/
-// If you hacve the link already, paste it in the contactUrl below
+// Contact form text, and Formspree link(
 const section5Title = "Get in Touch";
 const contact = {
   pitch:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris nunc congue nisi vitae.",
-  copyright: "Kaustubh Mishra",
-  contactUrl: "",
+    "If you would like to reach out about any projects or employment opportunities you may have feel free to reach out and I will get back you you as soon as possible.",
 };
 // Paste your respective social media links. You can omit any if you dont have it
 // Upload your resume in your drive, get the shaareable link and paste it in the resume section
 const social = {
-  github: "https://github.com",
-  facebook: "https://facebook.com",
+  github: "https://github.com/Sam-Maya",
+  // facebook: "https://facebook.com",
   // twitter: "https://twitter.com",
-  instagram: "https://instagram.com",
-  linkedin: "https://linkedin.com",
-  resume: "https://novoresume.com/",
+  // instagram: "https://instagram.com",
+  linkedin: "https://www.linkedin.com/in/samuel-maya-2316a176/",
+  resume: "https://drive.google.com/file/d/1kxnOgP5qlznRl0at318W7UlaQZ9uWBM5/view?usp=sharing",
 };
 // Dont change anything here
 export {

@@ -4,17 +4,9 @@ import { header } from '../../profile'
 
 const Header = () => {
 
-    const scrollTo = () => {
-        window.scrollTo({
-            top: 100000,
-            left: 0,
-            behavior: "smooth"
-        })
-    }
-
     const toggleDarkMode = (e) =>  {
         document.documentElement.classList.toggle('dark-mode')
-        document.getElementById('not-dark').classList.toggle('inverse-dark')
+        // document.getElementById('not-dark').classList.toggle('inverse-dark')
         document.getElementById('not-dark2').classList.toggle('inverse-dark')
         var x = document.getElementsByClassName('img-pro')
         for(let i = 0; i < x.length; i += 1) {
@@ -38,7 +30,6 @@ const Header = () => {
             </label>
             <HeaderButton/>
             </div>
-            <img id="not-dark" onClick={scrollTo} alt="Contact Me" title="Contact Me" className="gtp" src="profile.png"></img>
         </div>
     )
     
