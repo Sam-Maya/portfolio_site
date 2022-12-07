@@ -191,7 +191,7 @@ button:focus {
 .img-pro {
   height: 100%;
   width: 100%;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   -webkit-transition: all 0.5s;
@@ -199,9 +199,9 @@ button:focus {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-.image-project:hover .img-pro {
+/* .image-project:hover .img-pro {
   transform: scale(1.2);
-}
+} */
 .pp-head {
   text-align: center;
 }
