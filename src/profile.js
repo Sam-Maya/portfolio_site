@@ -97,8 +97,8 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "MERN App",
-    skills: ["MongoDB, Express, React, Node.js"],
+    name: "Goals Keeper",
+    skills: ["MongoDB, Express, React, Node.js, Redux, JWT"],
     url: "https://github.com/Sam-Maya/MERN_APP",
   },
   {
