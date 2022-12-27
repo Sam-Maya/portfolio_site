@@ -5,24 +5,19 @@
 }
 /* Projects Photo */
 .project1{ 
-    background-image: url("../../public/taskapp.PNG");
-    cursor: none;    
+    background-image: url('../../public/soccer-12.jpg');    
 }
 .project2{
-    background-image: url('../../public/soccer-12.jpg');
-    cursor: none;
+    background-image: url("../../public/taskapp.PNG");
 }
 .project3{
     background-image: url("../../public/tennis_ball.png");
-    cursor: none;
 }
 .project4{
     background-image: url('../../public/thestudiologo.PNG');
-    cursor: none;
 }
 .project5{
     background-image: url('../../public/mysite.PNG');
-    cursor: none;
 }
 .project6{
     background-image: url('https://via.placeholder.com/400x600.png?text=Project+six');
@@ -31,13 +26,10 @@
 /* Miscelaneous Activities photo */
 .misc1{
     background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+one');
-    cursor: none;
 }
 .misc2{
     background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+two');
-    cursor: none;
 }
 .misc3{
     background-image: url('https://via.placeholder.com/400x600.png?text=Miscellaneous+three');
-    cursor: none;
 }

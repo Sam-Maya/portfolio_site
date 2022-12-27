@@ -90,16 +90,16 @@ const projects = [
   {
     // Add image in './styles/images.css' in #project1
     id: "project1",
-    name: "React Task App",
-    skills: ["React, JavaScript"],
-    url: "https://github.com/Sam-Maya/ReactTaskApp",
+    name: "Goals Keeper",
+    skills: ["MongoDB, Express, React, Node.js, Redux, JWT"],
+    url: "https://github.com/Sam-Maya/MERN_APP",
   },
   {
     // Add image in './styles/images.css' in #project2
     id: "project2",
-    name: "Goals Keeper",
-    skills: ["MongoDB, Express, React, Node.js, Redux, JWT"],
-    url: "https://github.com/Sam-Maya/MERN_APP",
+    name: "React Task App",
+    skills: ["React, JavaScript"],
+    url: "https://github.com/Sam-Maya/ReactTaskApp",
   },
   {
     // Add image in './styles/images.css' in #project3
