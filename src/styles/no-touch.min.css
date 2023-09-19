@@ -59,7 +59,12 @@ button:focus {
   -webkit-filter: invert(1) hue-rotate(180deg);
   -moz-filter: invert(1) hue-rotate(180deg);
 }
-.inverse-dark {
+.dark-mode{
+  filter: invert(1) hue-rotate(180deg);
+  -webkit-filter: invert(1) hue-rotate(180deg);
+  -moz-filter: invert(1) hue-rotate(180deg);
+}
+.inverse-dark{
   filter: invert(1) hue-rotate(180deg);
   -webkit-filter: invert(1) hue-rotate(180deg);
   -moz-filter: invert(1) hue-rotate(180deg);

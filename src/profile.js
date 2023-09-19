@@ -62,6 +62,16 @@ const skillsBar = [
     faClass: "fab fa-python",
   },
   {
+    name: "Kotlin",
+    // svg: '',
+    faClass: "fab fa-android",
+  },
+  {
+    name: "Java",
+    // svg: '',
+    faClass: "fab fa-java",
+  },
+  {
     name: "Bootstrap",
     // svg: '',
     faClass: "fab fa-bootstrap",
@@ -89,10 +99,31 @@ const section3Title = "Past Projects";
 const projects = [
   {
     // Add image in './styles/images.css' in #project1
+    id: "project6",
+    name: "Swift Retail Advisors",
+    skills: ["HTML, CSS, JavaScript, WordPress"],
+    url: "https://swiftreadvisors.com/",
+  },
+  {
+    // Add image in './styles/images.css' in #project1
+    id: "project7",
+    name: "Tribeca Mortgage",
+    skills: ["HTML, CSS, JavaScript, WordPress"],
+    url: "https://tribecamortgage.com/",
+  },
+  {
+    // Add image in './styles/images.css' in #project1
     id: "project1",
     name: "Goals Keeper",
     skills: ["MongoDB, Express, React, Node.js, Redux, JWT"],
     url: "https://github.com/Sam-Maya/MERN_APP",
+  },
+  {
+    // Add image in './styles/images.css' in #project4
+    id: "project4",
+    name: "The Studio Worldwide",
+    skills: ["HTML, CSS, JavaScript, PHP"],
+    url: "https://www.thestudioworldwide.com/",
   },
   {
     // Add image in './styles/images.css' in #project2
@@ -109,11 +140,10 @@ const projects = [
     url: "https://github.com/Sam-Maya/TennisStringScaper",
   },
   {
-    // Add image in './styles/images.css' in #project4
-    id: "project4",
-    name: "The Studio Worldwide",
-    skills: ["HTML, CSS, JavaScript, PHP"],
-    url: "https://www.thestudioworldwide.com/",
+    id: "project8",
+    name: "Kotlin Age To Minutes App",
+    skills: ["Kotlin, XML"],
+    url: "https://github.com/Sam-Maya/Android-Age-To-Minutes-App",
   },
   {
     // Add image in './styles/images.css' in #project5

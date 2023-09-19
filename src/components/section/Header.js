@@ -7,10 +7,11 @@ const Header = () => {
     const toggleDarkMode = (e) =>  {
         document.documentElement.classList.toggle('dark-mode')
         // document.getElementById('not-dark').classList.toggle('inverse-dark')
-        document.getElementById('not-dark2').classList.toggle('inverse-dark')
+        // document.getElementById('not-dark2').classList.toggle('inverse-dark')
         var x = document.getElementsByClassName('img-pro')
+        console.log(x)
         for(let i = 0; i < x.length; i += 1) {
-            x.item(i).classList.toggle("inverse-dark");
+            x[i].classList.toggle("inverse-dark");
         }
         
         if (document.documentElement.classList.contains('dark-mode'))
