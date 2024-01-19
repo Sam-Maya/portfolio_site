@@ -198,7 +198,7 @@ const social = {
   // twitter: "https://twitter.com",
   // instagram: "https://instagram.com",
   linkedin: "https://www.linkedin.com/in/samuel-maya-2316a176/",
-  resume: "https://drive.google.com/file/d/1xtoIu1mkcqgDPcXEavo0WFodD8yCJSHw/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/18q5hx6IlrCsYR026aKjmYz7oJmL-HSsP/view?usp=drive_link",
 };
 // Dont change anything here
 export {
